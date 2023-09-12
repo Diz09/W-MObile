@@ -40,8 +40,8 @@ public class MainActivity extends AppCompatActivity {
 
         f1Button = (Button) findViewById(R.id.f1);
         f1Button.setOnClickListener(new View.OnClickListener(){
-            @Override
-            public void onClick(View view){
+                @Override
+                public void onClick(View view){
                 openActivity2();
             }
         });

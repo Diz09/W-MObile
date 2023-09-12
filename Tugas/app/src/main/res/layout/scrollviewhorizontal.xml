@@ -26,39 +26,48 @@
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button One"/>
+                android:text="Button One"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Two"/>
+                android:text="Button Two"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Three"/>
+                android:text="Button Three"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Four"/>
+                android:text="Button Four"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Five"/>
+                android:text="Button Five"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Six"/>
+                android:text="Button Six"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Seven"/>
+                android:text="Button Seven"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Eight"/>
+                android:text="Button Eight"
+                android:layout_margin="2dp"/>
             <Button
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Button Nine"/>
+                android:text="Button Nine"
+                android:layout_margin="2dp"/>
         </LinearLayout>
     </HorizontalScrollView>
 </LinearLayout>

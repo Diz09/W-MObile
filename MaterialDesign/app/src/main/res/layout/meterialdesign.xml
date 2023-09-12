@@ -6,6 +6,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:theme="@style/AppTheme"
     tools:ignore="ExtraText">
 
     <!--style attribute below is to be invoked for text button-->
