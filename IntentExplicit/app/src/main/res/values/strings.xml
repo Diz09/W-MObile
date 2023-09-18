@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">IntentExplicit</string>
+    <string name="who_are_you">who are you</string>
+    <string name="i_am">i am</string>
+</resources>

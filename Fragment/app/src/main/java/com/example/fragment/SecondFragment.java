@@ -21,7 +21,7 @@ public class SecondFragment extends Fragment {
         secondBtn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Toast.makeText(getActivity(), "First Fragment", Toast.LENGTH_LONG).show();
+                Toast.makeText(getActivity(), "Second Fragment", Toast.LENGTH_LONG).show();
             }
         });
         return view;

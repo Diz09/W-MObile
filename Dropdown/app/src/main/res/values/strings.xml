@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Dropdown</string>
+    <string-array name="countryArray">
+        <item>Indonesia</item>
+        <item>America</item>
+        <item>Canada</item>
+        <item>English</item>
+        <item>Australia</item>
+        <item>Jepang</item>
+        <item>German</item>
+        <item>Francis</item>
+        <item>GreenLand</item>
+        <item>Italia</item>
+        <item>Swiss</item>
+        <item>Spanyol</item>
+        <item>Brazil</item>
+        <item>Argentina</item>
+        <item>India</item>
+        <item>China</item>
+        <item>Russia</item>
+        <item>Korea</item>
+        <item>Mexico</item>
+        <item>Mesir</item>
+    </string-array>
+</resources>
