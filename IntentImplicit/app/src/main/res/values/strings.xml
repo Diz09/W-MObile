@@ -1,5 +1,5 @@
 <resources>
     <string name="app_name">IntentImplicit</string>
-    <string name="visit">visit</string>
+    <string name="visit">VISIT</string>
     <string name="intent_implicit_dimas">Intent Implicit - Dimas</string>
 </resources>

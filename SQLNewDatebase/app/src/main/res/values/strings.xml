@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">SQLNewDatebase - Dimas</string>
+    <string name="add_text">add text</string>
+    <string name="click_to_view">click to view</string>
+    <string name="save_as_public">save as public</string>
+    <string name="save_as_private">save as private</string>
+    <string name="show_public_data">show public data</string>
+    <string name="show_private_data">show private data</string>
+    <string name="back">back</string>
+</resources>

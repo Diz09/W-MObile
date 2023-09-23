@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SQLite - Dimas</string>
+    <string-array name="gender">
+        <item>LAKI-LAKI</item>
+        <item>PEREMPUAN</item>
+    </string-array>
+</resources>

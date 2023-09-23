@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="SpinnerTextStyle">
+        <item name="android:textSize">16sp</item> <!-- Ubah ukuran teks sesuai kebutuhan -->
+        <item name="android:textStyle">italic</item> <!-- Menjadikan teks miring -->
+        <item name="android:textColor">#800080</item> <!-- Mengatur warna teks menjadi ungu terong -->
+    </style>
+
+</resources>
