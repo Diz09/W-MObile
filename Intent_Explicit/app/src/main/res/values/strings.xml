@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Intent - Explicit</string>
+    <string name="who_are_you">Who are you</string>
+    <string name="this_is_second_activity">This is second activity</string>
+</resources>
