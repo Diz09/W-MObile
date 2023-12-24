@@ -15,6 +15,7 @@ public class SecondFragment extends Fragment {
     Button secondBtn;
     @Override
     public View onCreateView(LayoutInflater inflater, @Nullable ViewGroup container, Bundle savedInstanceState) {
+        //mengisi/inflate tampilan dengan layout xml dan disimpan pada view
         view = inflater.inflate(R.layout.fragment_second, container, false);
 
         secondBtn = view.findViewById(R.id.secondButton);

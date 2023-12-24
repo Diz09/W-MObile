@@ -2,4 +2,14 @@
     <string name="app_name">IntentImplicit</string>
     <string name="visit">VISIT</string>
     <string name="intent_implicit_dimas">Intent Implicit - Dimas</string>
+    <string name="your_search_web">Your - Search - Web</string>
+    <string name="http">http://</string>
+
+    <string-array name="v">
+        <item>PILIH</item>
+        <item>Visit</item>
+        <item>WestManga</item>
+        <item>Google</item>
+    </string-array>
 </resources>
+

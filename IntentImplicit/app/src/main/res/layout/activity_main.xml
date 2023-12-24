@@ -4,37 +4,56 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="384dp"
-    android:layout_height="1600dp"
+    android:layout_height="match_parent"
     tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/t1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/your_search_web"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"/>
 
     <EditText
         android:id="@+id/edit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginStart="10dp"
-        android:layout_marginTop="64dp"
-        android:layout_marginEnd="10dp"
+        android:layout_marginTop="24dp"
         android:ems="10"
         android:inputType="textUri"
-        android:text="http://"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:text=""
+        android:textColor="#FFA500"
+        app:layout_constraintEnd_toStartOf="@id/spinner"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/t1" />
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="137dp"
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="135dp"
         android:layout_height="52dp"
-        android:layout_marginStart="124dp"
-        android:layout_marginLeft="156dp"
-        android:layout_marginTop="152dp"
-        android:layout_marginEnd="8dp"
-        android:layout_marginRight="8dp"
-        android:text="@string/visit"
+        android:layout_marginTop="20dp"
         android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/edit" />
+        app:layout_constraintStart_toEndOf="@id/edit"
+        app:layout_constraintTop_toBottomOf="@id/t1"
+        android:background="@drawable/custom_spinner_background"
+        android:spinnerMode="dropdown"
+        android:popupBackground="@drawable/custom_spinner_background"
+        android:entries="@array/v"
+        android:gravity="center"
+        android:dropDownWidth="135dp"
+        android:dropDownVerticalOffset="52dp"/>
+
+    <ListView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        app:layout_constraintTop_toBottomOf="@id/edit"/>
 </androidx.constraintlayout.widget.ConstraintLayout>

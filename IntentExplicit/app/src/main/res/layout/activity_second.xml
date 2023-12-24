@@ -5,22 +5,29 @@
     android:id="@+id/activity_2"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/m"
     android:padding="20dp"
     tools:context=".SecondActivity">
     <TextView
         android:id="@+id/txtHello"
-        android:text="TextView"
+        android:text="@string/hello_nmy_name"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
-        android:layout_alignParentStart="true"
-        android:textSize="20sp"
-        android:textStyle="bold"
-        android:layout_marginStart="12dp"/>
+        android:textSize="18sp"
+        android:textStyle="italic"
+        android:layout_marginTop="440dp"/>
     <TextView
         android:id="@+id/extView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@id/txtHello"
-        android:layout_alignStart="@id/txtHello"/>
+        android:layout_alignRight="@id/txtHello"
+        android:layout_marginLeft="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="2dp"
+        android:contentDescription="@string/name"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:layout_alignEnd="@id/txtHello" />
 </RelativeLayout>

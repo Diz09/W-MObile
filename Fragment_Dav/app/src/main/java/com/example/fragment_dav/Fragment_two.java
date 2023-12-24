@@ -27,4 +27,3 @@ public class Fragment_two extends Fragment {
         return view;
     }
 }
-
